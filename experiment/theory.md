@@ -24,6 +24,7 @@ Using R programming, we can calculate the genetic distances between protein sequ
 Consider example, Uniprot accession number P06747,  rabies virus phosphoprotein, P0C569, Mokola virus phosphoprotein, O56773,  Lagos bat virus phosphoprotein and Q5VKP1 is Western Caucasian bat virus phosphoprotein. Based on the genetic distance matrix above, it is noted that  genetic distance between Lagos bat virus phosphoprotein (O56773) and Mokola virus phosphoprotein (P0C569) is  about 0.414 and is the smallest value. Similarly, the genetic distance between Western Caucasian bat virus phosphoprotein (Q5VKP1) and Lagos bat virus phosphoprotein (O56773) is about 0.507,the biggest. The larger the genetic distance between two sequences, the more amino acid changes or indels that have occurred since they shared a common ancestor, and the longer ago their common ancestor probably lived (Fig.1).
  
  ![image](https://user-images.githubusercontent.com/79529753/127532312-5565ef68-afff-4ac9-bd65-2bea9746a300.png)
+
 &nbsp;
 Multiple sequence alignment for finding genetic distance between proteins of multiple organisms
 
