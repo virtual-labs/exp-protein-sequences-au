@@ -1,1 +1,1 @@
-## Calculating Genetic Distances from Protein Sequences
+## Calculating Genetic Distances between Protein Sequences
