@@ -2,7 +2,7 @@
  
 1.	Consider three random protein sequences: Protein Sequence 1, Protein Sequence 2, Protein Sequence 3. 
 
-   <center><img src="images/1.png" title="" /></center>
+<center><img src="images/1.png" title="" /></center>
  &nbsp;
 
 .fasta format aminoacid sequences were aligned using multiple sequence alignment with sequinR package. The dist.alignment() function takes a multiple alignment as input and calculates calculates the genetic distance between each pair of proteins in the multiple alignment.
@@ -10,7 +10,7 @@
 
 2.	Click on run button to execute simulator. 
 
-   <center><img src="images/2.png" title="" /></center>
+<center><img src="images/2.png" title="" /></center>
 
  &nbsp;
  
