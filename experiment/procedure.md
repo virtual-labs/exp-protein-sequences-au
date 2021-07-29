@@ -2,7 +2,6 @@
  
 1.	Consider three random protein sequences: Protein Sequence 1, Protein Sequence 2, Protein Sequence 3. 
 
-
    <center><img src="images/1.png" title="" /></center>
  &nbsp;
 
