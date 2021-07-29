@@ -13,3 +13,22 @@ In multiple sequence alignment, a set of homologous amino acid or nucleotide seq
 
 
 Phylogenetic analyses on a genomic scale to addresses the issues ranging from the prediction of gene and protein function to organismal relationships. In a broader perspective, computing the relatedness of organisms either by phylogenetic gene by gene analyses or phylogenomic whole genome comparison methods reveals high-quality results for demonstrating phylogenies. In bioinformatics, Phylip (Phylogeny Inference Package) software is a free package of programs for inferring phylogenies of living species and organisms. 
+
+&nbsp;
+
+**Calculating genetic distances between protein sequences**
+
+&nbsp;
+
+Using R programming, we can calculate the genetic distances between protein sequences using the “dist.alignment()” function in the SeqinR package. The dist.alignment() function takes a multiple alignment as input. Based on the multiple alignment t, dist.alignment() calculates the genetic distance between each pair of proteins in the multiple alignment.
+
+&nbsp;
+
+Consider example, Uniprot accession number P06747,  rabies virus phosphoprotein, P0C569, Mokola virus phosphoprotein, O56773,  Lagos bat virus phosphoprotein and Q5VKP1 is Western Caucasian bat virus phosphoprotein. Based on the genetic distance matrix above, it is noted that  genetic distance between Lagos bat virus phosphoprotein (O56773) and Mokola virus phosphoprotein (P0C569) is  about 0.414 and is the smallest value. Similarly, the genetic distance between Western Caucasian bat virus phosphoprotein (Q5VKP1) and Lagos bat virus phosphoprotein (O56773) is about 0.507,the biggest. The larger the genetic distance between two sequences, the more amino acid changes or indels that have occurred since they shared a common ancestor, and the longer ago their common ancestor probably lived (Fig.1).
+ 
+ ![image](https://user-images.githubusercontent.com/79529753/127532312-5565ef68-afff-4ac9-bd65-2bea9746a300.png)
+
+&nbsp;
+
+Multiple sequence alignment for finding genetic distance between proteins of multiple organisms
+
