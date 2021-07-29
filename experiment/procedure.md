@@ -1,3 +1,28 @@
+**Procedure to work simulator**
+ 
+1.	Consider three random protein sequences: Protein Sequence 1, Protein Sequence 2, Protein Sequence 3. 
+
+
+   <center><img src="images/1.png" title="" /></center>
+ &nbsp;
+
+.fasta format aminoacid sequences were aligned using multiple sequence alignment with sequinR package. The dist.alignment() function takes a multiple alignment as input and calculates calculates the genetic distance between each pair of proteins in the multiple alignment.
+&nbsp;
+
+2.	Click on run button to execute simulator. 
+
+   <center><img src="images/2.png" title="" /></center>
+
+ &nbsp;
+ 
+ The numerical values in matrix of the output indicates genetic distance between each pair of proteins in the multiple alignment. The larger the genetic distance between two sequences, the more amino acid changes or indels that have occurred since they shared a common ancestor, and the longer ago their common ancestor probably lived. 
+
+ &nbsp;
+
+  **DIY**
+
+ &nbsp;
+
 1. Follow ( https://vlab.amrita.edu/index.php?sub=3&brch=311&sim=1835&cnt=2) to install R in personal computer.
 
 2. Install the SeqinR package.
